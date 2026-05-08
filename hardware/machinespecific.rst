@@ -170,10 +170,10 @@ Miscellaneous
 Footnotes
 ---------
 
-  .. _Compaq machines FDD bug:
+.. rubric:: Compaq machines FDD bug:
 * Most Compaq machines with Compaq BIOS currently suffer from a bug that causes the Floppy drive to not work without Turbo mode enabled. To prevent this, Turbo mode has been force enabled on Compaq machines for the time being.
 
-  .. _Compaq Deskpro:
+.. rubric:: Compaq Deskpro:
 * The currently implemented Deskpro machines are to be handled like dev-branched machines because they do not work properly.
 
 .. _brokenacpi:
