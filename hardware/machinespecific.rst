@@ -65,6 +65,8 @@ i486
 
 Socket 7
 --------
+.. rubric:: Siemens-Nixdorf D943
+* Due to the NVR being initialized to all zeroes at boot, you need to press/spam F2 at the first boot to enter setup, then go to the "Exit" Tab and "Get Default Values". Then either continue configuring the BIOS or Save changes and exit.
 
 .. rubric:: MSI MS-5119
 
@@ -167,6 +169,12 @@ Miscellaneous
 
 Footnotes
 ---------
+
+  .. _Compaq machines FDD bug:
+Most Compaq machines with Compaq BIOS currently suffer from a bug that causes the Floppy drive to not work without Turbo mode enabled. To prevent this, Turbo mode has been force enabled on Compaq machines for the time being.
+
+  .. _Compaq Deskpro:
+The currently implemented Deskpro machines are to be handled like dev-branched machines because they do not work properly.
 
 .. _brokenacpi:
 .. rubric:: Broken ACPI
