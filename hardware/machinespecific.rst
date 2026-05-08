@@ -174,7 +174,7 @@ Footnotes
 * Most Compaq machines with Compaq BIOS currently suffer from a bug that causes the Floppy drive to not work without Turbo mode enabled. To prevent this, Turbo mode has been force enabled on Compaq machines for the time being.
 
 .. rubric:: Compaq Deskpro:
-* The currently implemented Deskpro machines are to be handled like dev-branched machines because they do not work properly.
+* The currently implemented Deskpro (4000/6000, GARRY) and others (ProSignia 310/Professional Workstation AP200 machines are to be handled like dev-branched machines because they do not work properly.
 
 .. _brokenacpi:
 .. rubric:: Broken ACPI
